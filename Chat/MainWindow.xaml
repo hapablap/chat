@@ -16,7 +16,7 @@
             </TextBlock.Background>
         </TextBlock>
         <TextBox x:Name="MessageInput" HorizontalAlignment="Left" Height="54" Margin="61,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="705" FontSize="36"/>
-        <Button x:Name="SendButton" HorizontalAlignment="Left" Margin="61,363,0,0" VerticalAlignment="Top" Width="162" FontSize="36">
+        <Button IsEnabled="false" x:Name="SendButton" HorizontalAlignment="Left" Margin="61,363,0,0" VerticalAlignment="Top" Width="162" FontSize="36" Click="SendButton_Click">
             <Button.Content>Senden</Button.Content>
         </Button>
     </Grid>
