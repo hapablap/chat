@@ -1,0 +1,16 @@
+C:\Users\Thomas\source\repos\Chat\Chat\bin\Release\Background.png
+C:\Users\Thomas\source\repos\Chat\Chat\bin\Release\Chat.exe.config
+C:\Users\Thomas\source\repos\Chat\Chat\bin\Release\Chat.exe
+C:\Users\Thomas\source\repos\Chat\Chat\bin\Release\Chat.pdb
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\MainWindow.g.cs
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\App.g.cs
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\Chat_Content.g.cs
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\Chat_MarkupCompile.cache
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\Chat_MarkupCompile.lref
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\MainWindow.baml
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\Chat.g.resources
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\Chat.Properties.Resources.resources
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\Chat.csproj.GenerateResource.cache
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\Chat.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\Chat.exe
+C:\Users\Thomas\source\repos\Chat\Chat\obj\Release\Chat.pdb
