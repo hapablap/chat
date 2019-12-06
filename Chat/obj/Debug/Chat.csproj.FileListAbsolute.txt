@@ -2,7 +2,6 @@ C:\Users\Thomas\source\repos\Chat\Chat\bin\Debug\Background.png
 C:\Users\Thomas\source\repos\Chat\Chat\bin\Debug\Chat.exe.config
 C:\Users\Thomas\source\repos\Chat\Chat\bin\Debug\Chat.exe
 C:\Users\Thomas\source\repos\Chat\Chat\bin\Debug\Chat.pdb
-C:\Users\Thomas\source\repos\Chat\Chat\obj\Debug\Chat.csprojAssemblyReference.cache
 C:\Users\Thomas\source\repos\Chat\Chat\obj\Debug\MainWindow.g.cs
 C:\Users\Thomas\source\repos\Chat\Chat\obj\Debug\App.g.cs
 C:\Users\Thomas\source\repos\Chat\Chat\obj\Debug\Chat_Content.g.cs

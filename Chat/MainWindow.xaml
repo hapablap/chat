@@ -5,19 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chat"
         mc:Ignorable="d"
-        Title="Chat" Height="550" Width="800">
+        Title="Chat" Height="650" Width="1010">
     <Grid>
-        <Label Content="IP" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.134,-0.504" FontSize="36"/>
-        <TextBox x:Name="IpAddressInput" HorizontalAlignment="Left" Height="55" Margin="61,16,0,0" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="169" FontSize="36"/>
-        <Button x:Name="ConnectButton" Content="Verbinden" HorizontalAlignment="Left" Margin="235,16,0,0" VerticalAlignment="Top" Width="201" FontSize="36" Height="55" Click="ConnectButton_Click"/>
-        <TextBlock x:Name="ChatText" Padding="5" HorizontalAlignment="Left" Margin="61,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="226" Width="705" Text="Bitte verbinden!" FontSize="36">
-            <TextBlock.Background>
+        <Label Content="IP" HorizontalAlignment="Left" Margin="6,95,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.134,-0.504" FontSize="36"/>
+        <TextBox x:Name="IpAddressInput" HorizontalAlignment="Left" Height="55" Margin="166,95,0,0" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="169" FontSize="36"/>
+        <Button x:Name="ConnectButton" Content="Verbinden" HorizontalAlignment="Left" Margin="340,95,0,0" VerticalAlignment="Top" Width="201" FontSize="36" Height="55" Click="ConnectButton_Click"/>
+        <ScrollViewer Margin="166,250,132.333,138.667" Width="705" >
+            <TextBlock 
+                x:Name="ChatText" 
+                Padding="5" 
+                HorizontalAlignment="Left" 
+                TextWrapping="Wrap" 
+                VerticalAlignment="Top" 
+                Text="Bitte verbinden!" 
+                FontSize="36">
+            </TextBlock>
+            <ScrollViewer.Background>
                 <ImageBrush ImageSource="Background.png"></ImageBrush>
-            </TextBlock.Background>
-        </TextBlock>
-        <TextBox x:Name="MessageInput" HorizontalAlignment="Left" Height="54" Margin="61,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="705" FontSize="36"/>
-        <Button IsEnabled="false" x:Name="SendButton" HorizontalAlignment="Left" Margin="61,363,0,0" VerticalAlignment="Top" Width="162" FontSize="36" Click="SendButton_Click">
+            </ScrollViewer.Background>
+        </ScrollViewer>
+        <TextBox x:Name="MessageInput" 
+                 HorizontalAlignment="Left" 
+                 Height="54" 
+                 Margin="166,487,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="705" FontSize="36"/>
+        <Button IsEnabled="false" x:Name="SendButton" HorizontalAlignment="Left" Margin="166,546,0,0" VerticalAlignment="Top" Width="162" FontSize="36" Click="SendButton_Click">
             <Button.Content>Senden</Button.Content>
         </Button>
+        <Label Content="Name" FontSize="36" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NameInput" Height="54" FontSize="36" HorizontalAlignment="Left" Margin="166,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="375"/>
+        <Label Content="Online" FontSize="36" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="OnlineOutput" Content="0" FontSize="36" HorizontalAlignment="Left" Margin="166,159,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
