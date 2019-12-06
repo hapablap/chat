@@ -38,5 +38,6 @@
         <TextBox x:Name="NameInput" Height="54" FontSize="36" HorizontalAlignment="Left" Margin="166,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="375"/>
         <Label Content="Online" FontSize="36" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top"/>
         <Label x:Name="OnlineOutput" Content="0" FontSize="36" HorizontalAlignment="Left" Margin="166,159,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="UserList" FontSize="36" HorizontalAlignment="Left" Margin="10,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="232" Width="151"/>
     </Grid>
 </Window>

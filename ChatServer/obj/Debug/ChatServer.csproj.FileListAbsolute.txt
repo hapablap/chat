@@ -4,4 +4,3 @@ C:\Users\Thomas\source\repos\Chat\ChatServer\bin\Debug\ChatServer.pdb
 C:\Users\Thomas\source\repos\Chat\ChatServer\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
 C:\Users\Thomas\source\repos\Chat\ChatServer\obj\Debug\ChatServer.exe
 C:\Users\Thomas\source\repos\Chat\ChatServer\obj\Debug\ChatServer.pdb
-C:\Users\Thomas\source\repos\Chat\ChatServer\obj\Debug\ChatServer.csprojAssemblyReference.cache

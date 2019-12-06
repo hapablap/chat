@@ -44,6 +44,18 @@ namespace Chat
                                 ChatText.Text = messageParts[1] + ": " + messageParts[2] + Environment.NewLine + ChatText.Text;
                             });
                             break;
+                        case "user_list":
+                            var userList = messageParts[1].Split(',');
+                            string userListText = string.Empty;
+                            foreach (var userName in userList)
+                            {
+                                userListText += userName + Environment.NewLine;
+                            }
+                            Dispatcher.Invoke(() =>
+                            {
+                                UserList.Text = userListText;
+                            });
+                            break;
                         default:
                             break;
                     }

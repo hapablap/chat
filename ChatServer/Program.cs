@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -13,6 +14,7 @@ namespace ChatServer
         static List<TcpClient> Clients = new List<TcpClient>();
         static bool ParallelExecution = false;
         static Timer SendClientUpdateTimer;
+        static List<string> Usernames = new List<string>();
 
         static void Main(string[] args)
         {
@@ -66,10 +68,25 @@ namespace ChatServer
 
                 if (byteCount > 0)
                 {
-                    Broadcast(buffer);
-
                     string data = Encoding.UTF8.GetString(buffer, 0, byteCount);
                     Console.WriteLine(data);
+
+                    var messageParts = data.Split('|');
+
+                    switch (messageParts[0])
+                    {
+                        case "message":
+                            Broadcast(buffer);
+                            break;
+                        case "connect":
+                            Usernames.Add(messageParts[1]);
+                            string userListMessage = string.Format("user_list|{0}", string.Join(",", Usernames));
+                            var userListMessageBuffer = Encoding.UTF8.GetBytes(userListMessage);
+                            Broadcast(userListMessageBuffer);
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
         }
